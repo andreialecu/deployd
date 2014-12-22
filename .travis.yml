@@ -9,4 +9,8 @@ node_js:
 
 branches:
   only:
-    - master
+    - travis-integrationtests
+
+script: 
+  - cd test-app
+  - node ../bin/dpd -t "node ../node_modules/mocha-phantomjs/bin/mocha-phantomjs http://localhost:2403"

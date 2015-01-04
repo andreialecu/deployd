@@ -44,7 +44,7 @@
     "mocha": "*",
     "rewire": "~2.0.0",
     "sinon": "~1.12.1",
-	"mocha-phantomjs": "^3.5.2",
+	"mocha-phantomjs": "andreialecu/mocha-phantomjs#switch-hiderequesterrors",
 	"phantomjs": "^1.9.13"
   },
   "bin": {

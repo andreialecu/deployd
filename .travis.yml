@@ -14,4 +14,4 @@ branches:
 script: 
   - npm test
   - cd test-app
-  - node ../bin/dpd -t "node ../node_modules/mocha-phantomjs/bin/mocha-phantomjs http://localhost:2403"
+  - node ../bin/dpd -t "node ../node_modules/mocha-phantomjs/bin/mocha-phantomjs -i http://localhost:2403"
